@@ -55,26 +55,21 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
 
-               let VENOCYBER_MD_TEXT = `
-*_Pair Code Connected by Venocyber Tech_*
-*_Made With 🤍_*
+               let VENOCYBER_MD_TEXT = `*_Pair Code Connecte_*
+*_Made With RCD TEAM_*
 ______________________________________
-╔════◇
-║ *『 WOW YOU CHOOSEN VENOCYBER-MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚══════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@JASTINMTEWA-vn9pl_
-║❒ *Owner:* _https://wa.me/message/A4QG2JZKBXFTN1_
-║❒ *Repo:* _https://github.com/Kingjux/venocyber-md_
-║❒ *WaGroup:* _https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
-║❒ *Plugins:* _https://github.com/Kingjux/venocyber-md-plugins_
-╚══════════════════════╝ 
-_____________________________________
+╔══════════════════════❯
+║ *⛬ WOW YOU CHOOSEN RCD-MD ⛬*
+╚══════════════════════❯
+╔════════════════════❯
+║  ❮••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••❯
+║➢  *Ytube:* ➖ *_https://rb.gy/1hcpmg_*
+║➢  *Repo:* ➖ *_https://rb.gy/fj7dc2_*
+║➢  *WaGroup:* ➖ *_https://rb.gy/ldoz3f_*
+║➢  *WaChannel:* ➖ *_https://rb.gy/91sc7k_*
+╚════════════════════❯
 
-_Don't Forget To Give Star To My Repo_`
+> *RCD TEAM _____________________________*`
  await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id,{text:VENOCYBER_MD_TEXT},{quoted:session})
  
 
